@@ -10,7 +10,7 @@ function Dashboard() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    document.title = "Dashboard | VideoTube";
+    document.title = "Dashboard | Twideo";
     setLoading(true);
     getDashboardData()
       .then((data) => {
@@ -26,7 +26,7 @@ function Dashboard() {
       })
 
     return () => {
-      document.title = "VideoTube";
+      document.title = "Twideo";
     }
   }, []);
 

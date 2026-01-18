@@ -159,7 +159,7 @@ const Navbar = ({searchBar, menubar=true}) => {
                   isSearchOpen ? "hidden" : "block"
                 } md:block`}
               >
-                VideoTube
+                Twideo
               </span>
             </div>
           </Link>
